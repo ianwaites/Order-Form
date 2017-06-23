@@ -86,10 +86,13 @@ function closeBottomTable(){
   theTable.appendChild(trEl);
 }
 
+function theBigRender(){
+  makeTable();
+  innerTableOne();
+  innerTable();
+  moreTable();
+  evenMoreTable();
+  closeBottomTable();
+}
 
-makeTable();
-innerTableOne();
-innerTable();
-moreTable();
-evenMoreTable();
-closeBottomTable();
+theBigRender();
